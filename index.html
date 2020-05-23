@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="4CIC gafas">
+  <meta name="author" content="Rafael Lachica Garrido">
+
+  <title>4CIC</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- Scripts JQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- Custom styles for this template -->
+<style>
+#mainNav{min-height:56px;background-color:#fff}#mainNav .navbar-toggler{font-size:80%;padding:.75rem;color:#383333;border:1px solid #383333}#mainNav .navbar-toggler:focus{outline:0}#mainNav .navbar-brand{color:#161616;font-weight:700;padding:.9rem 0}#mainNav .navbar-nav .nav-item:hover{color:fade(white,80%);outline:0;background-color:transparent}#mainNav .navbar-nav .nav-item:active,#mainNav .navbar-nav .nav-item:focus{outline:0;background-color:transparent}@media (min-width:992px){#mainNav{padding-top:0;padding-bottom:0;border-bottom:none;background-color:transparent;transition:background-color .3s ease-in-out}#mainNav .navbar-brand{padding:.5rem 0;color:rgba(255,255,255,.5)}#mainNav .nav-link{transition:none;padding:2rem 1.5rem;color:rgba(255,255,255,.5)}#mainNav .nav-link:hover{color:rgba(255,255,255,.75)}#mainNav .nav-link:active{color:#fff}#mainNav.navbar-shrink{background-color:#fff}#mainNav.navbar-shrink .navbar-brand{color:#161616}#mainNav.navbar-shrink .nav-link{color:#161616;padding:1.5rem 1.5rem 1.25rem;border-bottom:.25rem solid transparent}#mainNav.navbar-shrink .nav-link:hover{color:#383333}#mainNav.navbar-shrink .nav-link:active{color:#3f4040}#mainNav.navbar-shrink .nav-link.active{color:#383333;outline:0;border-bottom:.25rem solid #383333}}.masthead{position:relative;width:100%;height:auto;min-height:35rem;padding:15rem 0;background:linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(22,22,22,.7) 75%,#161616 100%),url(../img/bg-masthead.jpg);background-position:center;background-repeat:no-repeat;background-attachment:scroll;background-size:cover}.masthead h1{font-family:'Varela Round';font-size:2.5rem;line-height:2.5rem;letter-spacing:.8rem;background:-webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,0));-webkit-text-fill-color:transparent;-webkit-background-clip:text;background-clip: text;}.masthead h2{max-width:20rem;font-size:1rem}@media (min-width:768px){.masthead h1{font-size:4rem;line-height:4rem}}@media (min-width:992px){.masthead{height:100vh;padding:0}.masthead h1{font-size:6.5rem;line-height:6.5rem;letter-spacing:.8rem}.masthead h2{max-width:30rem;font-size:1.25rem}}.btn{box-shadow:0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;padding:1.25rem 2rem;font-family:'Varela Round';font-size:80%;text-transform:uppercase;letter-spacing:.15rem;border:0}.btn-primary{background-color:#383333}.btn-primary:hover{background-color:red}.btn-primary:focus{background-color:red;color:#fff}.btn-primary:active{background-color:#3f4040!important}.about-section{padding-top:10rem;background:linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%)}.about-section p{margin-bottom:5rem}.projects-section{padding:10rem 0}.projects-section .featured-text{padding:2rem}@media (min-width:992px){.projects-section .featured-text{padding:0 0 0 2rem;border-left:.5rem solid #383333}}.projects-section .project-text{padding:3rem;font-size:90%}@media (min-width:992px){.projects-section .project-text{padding:5rem}.projects-section .project-text hr{border-color:#383333;border-width:.25rem;width:30%}}.signup-section{padding:10rem 0;background:linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(../img/bg-signup.jpg);background-position:center;background-repeat:no-repeat;background-attachment:scroll;background-size:cover}.signup-section .form-inline input{box-shadow:0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;padding:1.25rem 2rem;height:auto;font-family:'Varela Round';font-size:80%;text-transform:uppercase;letter-spacing:.15rem;border:0}.contact-section{padding:5rem 0 0}.contact-section .card{border:0;border-bottom:.25rem solid #383333}.contact-section .card h4{font-size:.8rem;font-family:'Varela Round';text-transform:uppercase;letter-spacing:.15rem}.contact-section .card hr{border-color:#383333;border-width:.25rem;width:3rem}.contact-section .social{margin-top:5rem}.contact-section .social a{text-align:center;height:3rem;width:3rem;background:rgba(255,255,255,.1);border-radius:100%;line-height:3rem;color:rgba(255,255,255,.3)}.contact-section .social a:hover{color:rgba(255,255,255,.5)}.contact-section .social a:active{color:#fff}body{font-family:Nunito;letter-spacing:.0625em}a{color:#383333}a:focus,a:hover{text-decoration:none;color:#3c6360}.bg-black{background-color:#161616!important}.bg-primary{background-color:#383333!important}.text-primary{color:#383333!important}footer{padding:5rem 0}.guantes-col-xs{width: 15vh;height: 15vh;}
+</style>
+<script>
+  //window.document.addEventListener("DOMContentLoaded", changeCode);
+  function changeCode(){
+      Element.prototype.remove = function() {
+          if (this.parentElement!=null)
+            this.parentElement.removeChild(this);
+      }
+      NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
+          for(var i = this.length - 1; i >= 0; i--) {
+              if(this[i] && this[i].parentElement) {
+                  this[i].parentElement.removeChild(this[i]);
+              }
+          }
+      }
+
+      //const isADevice = (navigator.userAgent.includes("Android") || navigator.userAgent.includes("iPhone") || navigator.userAgent.includes("iPad"));
+      if (true){
+        var bodyDoc = document.getElementsByClassName("l-site__body ng-scope").item(0);
+        var footerDoc = document.getElementsByClassName("l-site__footer ng-scope").item(0);
+        var bodyDocById = document.getElementById("bodycontainer");
+        var footerDocById = document.getElementById("footercontainer");
+        if (footerDocId!=null){footerDocById.remove()};
+        if (footerDoc!=null){footerDoc.remove()};
+        if (bodyDoc!=null){bodyDoc.remove()};
+        if (bodyDocById!=null){bodyDocById.remove()};
+      }
+   }
+</script>
+</head>
+<body>
+<div id="page-top" style="background-color: rgb(158, 154, 154)">
+  <!-- Header -->
+  <header style="background-color: rgb(158, 154, 154);padding-bottom: 5%;">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <div id="carrousel-gafas" class="carousel slide" data-ride="carousel" style="padding-top: 5px;padding-bottom: 5px;">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="https://www.4cic.es/Files/127290/Img/13/4cic-slide1.jpg" alt="Slide-4cic">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="https://www.4cic.es/Files/127290/Img/08/4cic-slide2.jpg" alt="Slide-4cic">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src=" https://www.4cic.es/Files/127290/Img/19/4cic-slide3.jpg" alt="Slide-4cic">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="https://www.4cic.es/Files/127290/Img/07/4cic-slide4.jpg" alt="Slide-4cic">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carrousel-gafas" role="button" data-slide="prev">
+            <span style="background-color: lightgray" class="carousel-control-prev-icon"aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carrousel-gafas" role="button" data-slide="next">
+            <span style="background-color: lightgray" class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <a href="https://www.4cic.es/gafas-carretera-c102x3311974" class="btn btn-primary js-scroll-trigger" style="background-color: black;padding-bottom: 5px;">Nueva colección gafas</a>
+      </div>
+    </div>
+  </header>
+
+  <table class="table" style="background-color: black; padding: 1vh;">
+    <thead>
+      <tr style="color: white; text-align:center;">
+        <th scope="col" style=" border: 3px white solid">       
+           <a style="display: block;color: white" href="https://www.4cic.es/gafas-carretera-c102x3311974" alt="4cic-gafas">
+              Gafas
+          </a>
+        </th>
+        <th scope="col" style=" border: 3px white solid">
+          <a style="display: block;color: white" href="https://www.4cic.es/guantes-c102x3757910" alt="4cic-guantes">
+              Guantes
+          </a>
+        </th>
+        <th scope="col" style=" border: 3px white solid">
+          <a style="display: block;color: white" href="https://www.4cic.es/calzado-c102x3408098" alt="4cic-calcetines">
+              Calcetines
+          </a>
+        </th>
+      </tr>
+      <tr style="color: white; text-align:center;">
+        <th colspan="2" scope="colgroup" style=" border: 3px white solid">
+          <a style="display: block;color: white" href="https://www.4cic.es/reparaciones-c102x3569600" alt="4cic-accesorios">
+              Accesorios
+          </a>
+        </th>
+        <th colspan="2" scope="colgroup" style=" border: 3px white solid">
+          <a style="display: block;color: white" href="https://www.4cic.es/invierno-c102x3454423" alt="4cic-invierno">
+            Invierno
+            </a>
+        </th>
+      </tr>
+    </thead>
+  </table>
+
+  <section id="4cic-articulos" class="projects-section bg-light" style="padding-top: 5%;">
+    <div class="container">
+
+      <div class="row justify-content-center no-gutters mb-2" onclick="location.href='https:\/\/www.4cic.es/guantes-c102x3757910'">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="https://www.4cic.es/Files/127290/Img/12/guantes.jpg" alt="guantes-4cic">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">Guantes</h4>
+                <p class="mb-0 text-white-50">Para ciclismo. Diseño exclusivo 4CIC.
+                  Fabricado en Nylon y Spandex.
+                  Tratamiento anti deslizamiento.
+                  Seca rápidamente.
+                  Resistente al sudor.
+                  Tejido más duradero.</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center no-gutters mb-2 mb-lg-0" onclick="location.href='https:\/\/www.4cic.es/gafas-carretera-c102x3311974'">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="https://www.4cic.es/Files/127290/Img/24/gafas.jpg" alt="gafas-4cic">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">Gafas</h4>
+                <p class="mb-0 text-white-50">
+                  Diseñadas en exclusiva para ciclismo con 100% protección UVA/UVB.
+                  Lentes de policarbonato, ventiladas y polarización real. 
+                  Opción de elegir lente fotocromática en todos los modelos.
+                  <p class="text-white-50"><strong>FOTOCROMATICAS</strong></p>
+                  <p class="text-white-50"><strong>LENTE DE POLICARBONATO</strong></p>
+                  <p class="text-white-50"><strong>POLARIZACIÓN VERDADERA</strong></p>
+                  <p class="text-white-50"><strong>LENTE VENTILADA</strong></p>
+                </p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center no-gutters" onclick="location.href='https:\/\/www.4cic.es/calzado-c102x3408098'">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="https://www.4cic.es/Files/127290/Img/07/calcetines.jpg" alt="calcetines-4cic">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">Calcetines</h4>
+                <p class="mb-0 text-white-50">
+                  Tejido de Poliamida-Meryl-Elastano, lo que le otorgan una mayor elasticidad y resistencia.
+                  Alta sujeción, adaptabilidad y confortabilidad. 
+                  Transpirables y de secado rápido.
+                </p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Signup Section -->
+  <!-- <section id="signup" class="signup-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+
+          <form class="form-inline d-flex">
+            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact Section -->
+  <section class="contact-section bg-black">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-lock text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Pago seguro</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <p>Pago seguro con tarjeta, Paypal o transferencia bancaria</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center"><a href="https://wa.me/34641801419?text=Me%20interesaría%20recibir%20información%20material%204CIC">
+              <i class="fas fa-phone text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Teléfono</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <p>641801419</p>
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Dirección</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">11690 Olvera
+                (Cádiz)</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Email</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a href="mailto:info4cicnew@gmail.com">info4cicnew@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="social d-flex justify-content-center">
+        <a href="https://www.facebook.com/forcyclists/" class="mx-2">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/forcyclists" class="mx-2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/4cic_new/" class="mx-2">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      Copyright &copy; 4CIC <script>document.write(new Date().getFullYear())</script>
+      <hr>
+      <p>
+        Realizado por <a href="https://www.linkedin.com/in/rafael-lachica-garrido-a4a43810b"/>Rafael Lachica Garrido</a>
+      </p>
+    </div>
+  </footer>
+
+</div>
+
+</body>
+
+</html>
